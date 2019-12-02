@@ -33,7 +33,6 @@ class Die {
         this.value = 0;
         this.total = 0;
         fill('#4BA4AB');
-        //stroke(0);
         rect(this.x, this.y, 75, 75, 20);
     }
 

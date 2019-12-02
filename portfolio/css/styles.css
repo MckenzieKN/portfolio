@@ -1,4 +1,6 @@
-
+body{
+text-align:center;
+}
 /* Style the navigation menu */
 .navbar {
     width: 100%;
@@ -13,7 +15,7 @@
     color: white;
     text-decoration: none;
     font-size: 25px;
-    width: 17.9%;
+    width: 23%;
     /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
     /* If you want the text to be centered */
@@ -51,7 +53,7 @@ li {
 
 .pic {
     position: absolute;
-    width: 20%;
+    width: 30%;
     margin: 3rem;
     top: 600px;
     right: 700px;
@@ -61,6 +63,25 @@ li {
     border-color: #4BA4AB;
     border-style: dashed;
 }
+
+.picnb {
+    position: relative;
+    width: 25%;
+    margin: 3rem;
+    right: 300px;
+    padding: 10px;
+}
+
+.picT {
+    position: relative;
+    width: 25%;
+    margin: 2rem;
+    top: -60px;
+    right: 400px;
+    transform: rotate(90deg);
+}
+
+
 
 
 #bannering {
